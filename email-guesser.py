@@ -18,7 +18,7 @@ def main():
     string = string.split(";")
     mx=input("[+] Email provider : ")
 
-    separators = ['','.']  #The most common separators people tend to use
+    separators = ['','.','_','-']  #The most common separators people tend to use
 
     for s in separators:
         string += s
